@@ -4,5 +4,23 @@ PyTorch implementation of [A Neural Algorithm of Artistic Style](https://arxiv.o
 <div align='center'>
   <img src='img/udnie.jpg' height="256px">
   <img src='img/chicago_resized.jpg' height="256px">
-  <img src='img/last.jpg' height="512px">
+  <img src='img/last.jpg' height="256px">
 </div>
+
+### Progress
+This is the progress of the first few iterations
+
+<div align='center'>
+   <img src="img/progress-1.gif" alt="progress" align='center' width='400'/>
+</div>
+
+### Implementation Details
+- The hyperparameters are same as used in the paper.
+- All the code was written and ran on Google Colab.
+- As in the paper, conv1_1, conv2_1, conv3_1, conv4_1, conv5_1 are used for style loss.
+- SImilarly, conv4_2 is used for content loss.
+- PyTorch's forward hooks are used to extract intermediate feature maps.
+- VGG19's MaxPool2d layers were replaced by AvgPool2d layers.
+
+### References
+1. **Leon A. Gatys, et al.** *A Neural Algorithm for Artistic Style* [[arxiv](https://arxiv.org/abs/1508.06576)]
