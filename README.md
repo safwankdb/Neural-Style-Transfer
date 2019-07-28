@@ -22,5 +22,15 @@ This is the progress of the first few iterations
 - PyTorch's forward hooks are used to extract intermediate feature maps.
 - VGG19's MaxPool2d layers were replaced by AvgPool2d layers.
 
+### Requirements
+``` bash
+torch
+torchvision
+numpy
+matplotlib
+Pillow
+imageio
+```
+
 ### References
 1. **Leon A. Gatys, et al.** *A Neural Algorithm for Artistic Style* [[arxiv](https://arxiv.org/abs/1508.06576)]
