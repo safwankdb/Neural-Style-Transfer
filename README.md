@@ -40,4 +40,4 @@ imageio
 ```
 
 ### References
-1. **Leon A. Gatys, et al.** *A Neural Algorithm for Artistic Style* [[arxiv](https://arxiv.org/abs/1508.06576)]
+1. **Leon A. Gatys, et al.** *A Neural Algorithm of Artistic Style* [[arxiv](https://arxiv.org/abs/1508.06576)]
