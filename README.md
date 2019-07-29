@@ -7,11 +7,18 @@ PyTorch implementation of [A Neural Algorithm of Artistic Style](https://arxiv.o
   <img src='img/last.jpg' height="256px">
 </div>
 
+<div align='center'>
+  <img src='img/mosaic.jpg' height="256px" width="256.jpg" >
+  <img src='img/chicago_resized.jpg' height="256px">
+  <img src='img/last1.jpg' height="256px">
+</div>
+
 ### Progress
 This is the progress of the first few iterations
 
 <div align='center'>
-   <img src="img/progress-1.gif" alt="progress" align='center' width='400'/>
+   <img src="img/progress-1.gif" alt="progress" width='320px'/>
+   <img src="img/progress-7.gif" alt="progress" width='320px'/>
 </div>
 
 ### Implementation Details
